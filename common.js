@@ -37,5 +37,5 @@ function calculate(p,d){
 		}
 	//---------------------------
 		msg = "successfully calculated!"
-		return {"status":1,"message":msg,"hour":hour,"min":min};
+		return {"status":1,"message":msg,"hour":pc.hour,"min":min};
 }
